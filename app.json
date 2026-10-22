@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "GovTech Mobile Workforce",
+    "slug": "react-native-govtech-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "sg.govtech.workforce.mobile",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Enable FaceID for fast and secure verification to access agency records.",
+        "NSLocationWhenInUseUsageDescription": "Your location is required to verify your attendance within designated agency zones."
+      }
+    },
+    "android": {
+      "package": "sg.govtech.workforce.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "permissions": [
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
